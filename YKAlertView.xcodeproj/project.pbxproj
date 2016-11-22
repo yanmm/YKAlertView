@@ -12,6 +12,20 @@
 		B6AAFEDC1D362A1A00D76B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AAFEDA1D362A1A00D76B2B /* Main.storyboard */; };
 		B6AAFEDE1D362A1A00D76B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AAFEDD1D362A1A00D76B2B /* Assets.xcassets */; };
 		B6AAFEE11D362A1A00D76B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AAFEDF1D362A1A00D76B2B /* LaunchScreen.storyboard */; };
+		B6AAFEE91D362A2300D76B2B /* YKAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEE81D362A2300D76B2B /* YKAlertView.swift */; };
+		B6AAFEF71D362ADC00D76B2B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEEB1D362ADC00D76B2B /* Constraint.swift */; };
+		B6AAFEF81D362ADC00D76B2B /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEEC1D362ADC00D76B2B /* ConstraintAttributes.swift */; };
+		B6AAFEF91D362ADC00D76B2B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEED1D362ADC00D76B2B /* ConstraintDescription.swift */; };
+		B6AAFEFA1D362ADC00D76B2B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEEE1D362ADC00D76B2B /* ConstraintItem.swift */; };
+		B6AAFEFB1D362ADC00D76B2B /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEEF1D362ADC00D76B2B /* ConstraintMaker.swift */; };
+		B6AAFEFC1D362ADC00D76B2B /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEF01D362ADC00D76B2B /* ConstraintRelation.swift */; };
+		B6AAFEFD1D362ADC00D76B2B /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEF11D362ADC00D76B2B /* Debugging.swift */; };
+		B6AAFEFE1D362ADC00D76B2B /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEF21D362ADC00D76B2B /* EdgeInsets.swift */; };
+		B6AAFEFF1D362ADC00D76B2B /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEF31D362ADC00D76B2B /* LayoutConstraint.swift */; };
+		B6AAFF001D362ADC00D76B2B /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEF41D362ADC00D76B2B /* SnapKit.swift */; };
+		B6AAFF011D362ADC00D76B2B /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEF51D362ADC00D76B2B /* View+SnapKit.swift */; };
+		B6AAFF021D362ADC00D76B2B /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFEF61D362ADC00D76B2B /* ViewController+SnapKit.swift */; };
+		B6AAFF041D362B6400D76B2B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAFF031D362B6400D76B2B /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		B6AAFEDD1D362A1A00D76B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6AAFEE01D362A1A00D76B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6AAFEE21D362A1A00D76B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AAFEE81D362A2300D76B2B /* YKAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKAlertView.swift; sourceTree = "<group>"; };
+		B6AAFEEB1D362ADC00D76B2B /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		B6AAFEEC1D362ADC00D76B2B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		B6AAFEED1D362ADC00D76B2B /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		B6AAFEEE1D362ADC00D76B2B /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		B6AAFEEF1D362ADC00D76B2B /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		B6AAFEF01D362ADC00D76B2B /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		B6AAFEF11D362ADC00D76B2B /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		B6AAFEF21D362ADC00D76B2B /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		B6AAFEF31D362ADC00D76B2B /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		B6AAFEF41D362ADC00D76B2B /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		B6AAFEF51D362ADC00D76B2B /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		B6AAFEF61D362ADC00D76B2B /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		B6AAFF031D362B6400D76B2B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,9 @@
 		B6AAFED51D362A1A00D76B2B /* YKAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				B6AAFEEA1D362ADC00D76B2B /* SnapKit */,
+				B6AAFEE81D362A2300D76B2B /* YKAlertView.swift */,
+				B6AAFF031D362B6400D76B2B /* UIColorExtension.swift */,
 				B6AAFED61D362A1A00D76B2B /* AppDelegate.swift */,
 				B6AAFED81D362A1A00D76B2B /* ViewController.swift */,
 				B6AAFEDA1D362A1A00D76B2B /* Main.storyboard */,
@@ -62,6 +93,25 @@
 				B6AAFEE21D362A1A00D76B2B /* Info.plist */,
 			);
 			path = YKAlertView;
+			sourceTree = "<group>";
+		};
+		B6AAFEEA1D362ADC00D76B2B /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				B6AAFEEB1D362ADC00D76B2B /* Constraint.swift */,
+				B6AAFEEC1D362ADC00D76B2B /* ConstraintAttributes.swift */,
+				B6AAFEED1D362ADC00D76B2B /* ConstraintDescription.swift */,
+				B6AAFEEE1D362ADC00D76B2B /* ConstraintItem.swift */,
+				B6AAFEEF1D362ADC00D76B2B /* ConstraintMaker.swift */,
+				B6AAFEF01D362ADC00D76B2B /* ConstraintRelation.swift */,
+				B6AAFEF11D362ADC00D76B2B /* Debugging.swift */,
+				B6AAFEF21D362ADC00D76B2B /* EdgeInsets.swift */,
+				B6AAFEF31D362ADC00D76B2B /* LayoutConstraint.swift */,
+				B6AAFEF41D362ADC00D76B2B /* SnapKit.swift */,
+				B6AAFEF51D362ADC00D76B2B /* View+SnapKit.swift */,
+				B6AAFEF61D362ADC00D76B2B /* ViewController+SnapKit.swift */,
+			);
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +185,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6AAFEFA1D362ADC00D76B2B /* ConstraintItem.swift in Sources */,
+				B6AAFEFC1D362ADC00D76B2B /* ConstraintRelation.swift in Sources */,
+				B6AAFF001D362ADC00D76B2B /* SnapKit.swift in Sources */,
+				B6AAFEFD1D362ADC00D76B2B /* Debugging.swift in Sources */,
+				B6AAFEFE1D362ADC00D76B2B /* EdgeInsets.swift in Sources */,
+				B6AAFF011D362ADC00D76B2B /* View+SnapKit.swift in Sources */,
+				B6AAFEF71D362ADC00D76B2B /* Constraint.swift in Sources */,
 				B6AAFED91D362A1A00D76B2B /* ViewController.swift in Sources */,
 				B6AAFED71D362A1A00D76B2B /* AppDelegate.swift in Sources */,
+				B6AAFEF81D362ADC00D76B2B /* ConstraintAttributes.swift in Sources */,
+				B6AAFEFF1D362ADC00D76B2B /* LayoutConstraint.swift in Sources */,
+				B6AAFF041D362B6400D76B2B /* UIColorExtension.swift in Sources */,
+				B6AAFEFB1D362ADC00D76B2B /* ConstraintMaker.swift in Sources */,
+				B6AAFEE91D362A2300D76B2B /* YKAlertView.swift in Sources */,
+				B6AAFF021D362ADC00D76B2B /* ViewController+SnapKit.swift in Sources */,
+				B6AAFEF91D362ADC00D76B2B /* ConstraintDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
